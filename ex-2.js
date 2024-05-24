@@ -12,6 +12,7 @@ let studentScores = {
   tech: 100,
 };
 
-// Start coding here
+let scores = {...studentProfile.scores,...studentScores}
+let newStudentProfile = {...studentProfile,scores};
 
 console.log(newStudentProfile);
